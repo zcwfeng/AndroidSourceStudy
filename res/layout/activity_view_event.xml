@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <com.zcwfeng.sourcestudy.views.MyLinearLayout1
+        android:id="@+id/myLinearLayout1"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="#88ff0000"
+        android:gravity="center" >
+
+        <com.zcwfeng.sourcestudy.views.MyLinearLayout2
+            android:id="@+id/myLinearLayout2"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:background="#5500ff00"
+            android:gravity="center" >
+
+            <com.zcwfeng.sourcestudy.views.MyView
+                android:id="@+id/myview"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="#550000ff"
+                android:gravity="center"
+                android:text="点我啊" />
+        </com.zcwfeng.sourcestudy.views.MyLinearLayout2>
+    </com.zcwfeng.sourcestudy.views.MyLinearLayout1>
+    
+
+</RelativeLayout>

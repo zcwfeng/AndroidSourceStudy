@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/rotateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转" />
+
+        <Button
+            android:id="@+id/scaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩放" />
+
+        <Button
+            android:id="@+id/alphaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="淡入淡出" />
+
+        <Button
+            android:id="@+id/translateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="移动" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/doubleAniSetBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="叠加动画" />
+
+        <Button
+            android:id="@+id/frame_anim_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_robnow_selector"
+            android:text="frame动画" />
+
+        <Button
+            android:id="@+id/test_style_selector"
+            style="@style/ButtonGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.zcwfeng.sourcestudy.views.surfaceview.MySurfaceView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

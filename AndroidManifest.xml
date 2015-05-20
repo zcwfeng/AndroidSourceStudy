@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zcwfeng.sourcestudy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.zcwfeng.sourcestudy"
+                    android:scheme="testjs" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.HandlerBasicActivity"
+            android:label="@string/title_activity_handler_basic" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.AdapterTestActivity"
+            android:label="@string/title_activity_adapter_test" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.AnimationTestActivity"
+            android:label="@string/title_activity_animation_test" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.ServiceTestActivity"
+            android:label="@string/title_activity_service_test" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.AIDLTestActivity"
+            android:label="@string/title_activity_aidltest" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.StorageTestActivity"
+            android:label="@string/title_activity_storage_test" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.ViewEventActivity"
+            android:label="@string/title_activity_view_event" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.TestBroadcastActivity"
+            android:label="@string/title_activity_test_broadcast" >
+        </activity>
+        <!-- <service android:name=".service.LocalService"></service> -->
+
+        <service
+            android:name=".service.MyService"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.zcwfeng.sourcestudy.service.IStockQuoteService" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyIntentService" >
+        </service>
+
+        <receiver android:name=".receiver.TestBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.zcwfeng.sourcestudy.Internal_2" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.MyBroadcastReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".contentprovider.MyContentProvider"
+            android:authorities="com.zcwfeng.sourcestudy.contentprovider.MyContentProvider" />
+
+        <activity
+            android:name=".activity.MyContentDemo"
+            android:label="@string/title_activity_content_provider_demo" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.ContentProviderDemo"
+            android:label="@string/title_activity_content_provider_demo" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.TestIntentServiceActivity"
+            android:label="@string/title_activity_test_intent_service" >
+        </activity>
+        <activity
+            android:name=".activity.ImageDetailsActivity"
+            android:label="@string/title_activity_image_details" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.CustomView_multiText"
+            android:label="@string/title_activity_custom_view_multi_text" >
+        </activity>
+        <activity
+            android:name=".activity.PageViewFlipperDemo"
+            android:label="@string/title_activity_page_viewflipper" >
+        </activity>
+        <activity
+            android:name=".activity.TestListVewActivity"
+            android:label="@string/title_activity_test_list_vew" >
+        </activity>
+        <activity
+            android:name=".thirdparty.volley.TestVolley"
+            android:label="@string/title_activity_test_volley" >
+        </activity>
+        <activity
+            android:name=".thirdparty.eventbus.TestEventBusMainActivity"
+            android:label="@string/title_activity_eventbus_A" >
+        </activity>
+        <activity
+            android:name=".thirdparty.eventbus.SecondActivity"
+            android:label="@string/title_activity_eventbus_B" >
+        </activity>
+        <activity
+            android:name=".thirdparty.greendao.NoteActivity"
+            android:label="@string/title_activity_greendao" >
+        </activity>
+        <activity
+            android:name=".download.DownloadActivity"
+            android:label="@string/title_activity_greendao" >
+        </activity>
+        <activity
+            android:name=".dataset.DataTest"
+            android:label="@string/title_activity_data_test" >
+        </activity>
+        <activity
+            android:name=".activity.GestureScalActivity"
+            android:label="@string/title_activity_gesture_scal" >
+        </activity>
+        <activity
+            android:name=".activity.SqliteOperateTest"
+            android:label="@string/title_activity_sqlite_operate_test" >
+        </activity>
+        <activity
+            android:name=".activity.ParcelTest"
+            android:label="@string/title_activity_parcel_test" >
+        </activity>
+        <activity
+            android:name=".activity.DownLoadActivity"
+            android:label="download" >
+        </activity>
+        <activity
+            android:name=".activity.TestIntentActivity"
+            android:label="@string/title_activity_test_intent" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.TestIntentShowActivity"
+            android:label="@string/title_activity_test_intent_show" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.media.VideoSurfaceDemo"
+            android:label="Surface Viedeo" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,31 @@
+android 的基础
+
+handler机制
+fragment的管理
+service和IntentService
+broadcast
+receiver
+各种adapter
+存储sqlite，contentprovider，sharpreference共享
+控件：瀑布流，多文本控件(对于换行的处理和ImageLoader的机制lru算法，onDraw和dispatchDraw)
+viewFlipper（启动运转属性）
+事件的传递机制
+jni示例
+aidl用法
+重写MyScrollView
+媒体播放结合SurfaceView demo
+
+===============
+框架的使用
+
+volley 的使用
+eventbus 的基本使用
+greendao 的基本是用demo
+
+====
+设计模式
+mvp mvc mvvm设计模式内涵
+
+
+=====
+打包的时候使用study.keystore，可以用你自定义的keystore

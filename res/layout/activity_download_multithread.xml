@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下载" />
+
+    <EditText
+        android:id="@+id/et_path"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入下载路径"
+        android:text="http://file1.updrv.com/soft/rili/calendar_setup.exe" />
+
+    <ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_process"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始下载" />
+
+</LinearLayout>

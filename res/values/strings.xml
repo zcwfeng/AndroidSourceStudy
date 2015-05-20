@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidSourceStudy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_handler_basic">HandlerBasicActivity</string>
+    <string name="title_activity_adapter_test">AdapterTestActivity</string>
+    <string name="title_activity_animation_test">AnimationTestActivity</string>
+    <string name="title_activity_service_test">ServiceTestActivity</string>
+    <string name="title_activity_aidltest">AIDLTestActivity</string>
+    <string name="title_activity_storage_test">StorageTestActivity</string>
+    <string name="title_activity_view_event">ViewEventActivity</string>
+    <string name="title_activity_test_broadcast">TestBroadcastActivity</string>
+    <string name="title_activity_content_provider_demo">ContentProviderDemo</string>
+    <string name="title_activity_test_intent_service">TestIntentServiceActivity</string>
+    <string name="border_bottom">border底</string>
+    <string name="border_top">border顶</string>
+    <string name="image_url">img_url_顶</string>
+    <string name="title_activity_image_details">ImageDetailsActivity</string>
+    <string name="title_activity_custom_view_multi_text">CustomView_multiText</string>
+    <string name="title_activity_page_viewflipper">PageViewFlipperAuto</string>
+    <string name="title_activity_test_list_vew">TestListVewActivity</string>
+    <string name="title_activity_test_volley">TestVolley</string>
+    <string name="title_activity_eventbus_A">EventBusA</string>
+    <string name="title_activity_eventbus_B">EventBusB</string>
+    <string name="title_activity_greendao">GreenDao</string>
+    <string name="title_activity_data">测试数据相关</string>
+    <string name="title_intent">测试Intent的各种用法</string>
+    <string name="show_content_intent">intent的结果</string>
+    <!-- 关于下载功能 -->
+    <string name="downloadpath">下载路径</string>
+    <string name="button">下载</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="success">下载完成</string>
+    <string name="error">下载失败</string>
+    <string name="title_activity_data_test">DataTest</string>
+    <string name="title_activity_gesture_scal">GestureScalActivity</string>
+    <string name="title_activity_sqlite_operate_test">SqliteOperateTest</string>
+    <string name="title_activity_parcel_test">ParcelTest</string>
+    <string name="title_activity_test_intent">TestIntentActivity</string>
+    <string name="title_activity_test_intent_show">TestIntentShowActivity</string>
+
+</resources>
