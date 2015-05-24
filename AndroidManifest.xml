@@ -34,35 +34,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.HandlerBasicActivity"
+            android:name=".activity.HandlerBasicActivity"
             android:label="@string/title_activity_handler_basic" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.AdapterTestActivity"
+            android:name=".activity.AdapterTestActivity"
             android:label="@string/title_activity_adapter_test" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.AnimationTestActivity"
+            android:name=".activity.AnimationTestActivity"
             android:label="@string/title_activity_animation_test" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.ServiceTestActivity"
+            android:name=".activity.ServiceTestActivity"
             android:label="@string/title_activity_service_test" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.AIDLTestActivity"
+            android:name=".activity.AIDLTestActivity"
             android:label="@string/title_activity_aidltest" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.StorageTestActivity"
+            android:name=".activity.StorageTestActivity"
             android:label="@string/title_activity_storage_test" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.ViewEventActivity"
+            android:name=".activity.ViewEventActivity"
             android:label="@string/title_activity_view_event" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.TestBroadcastActivity"
+            android:name=".activity.TestBroadcastActivity"
             android:label="@string/title_activity_test_broadcast" >
         </activity>
         <!-- <service android:name=".service.LocalService"></service> -->
@@ -97,11 +97,11 @@
             android:label="@string/title_activity_content_provider_demo" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.ContentProviderDemo"
+            android:name=".activity.ContentProviderDemo"
             android:label="@string/title_activity_content_provider_demo" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.TestIntentServiceActivity"
+            android:name=".activity.TestIntentServiceActivity"
             android:label="@string/title_activity_test_intent_service" >
         </activity>
         <activity
@@ -109,7 +109,7 @@
             android:label="@string/title_activity_image_details" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.CustomView_multiText"
+            android:name=".activity.CustomView_multiText"
             android:label="@string/title_activity_custom_view_multi_text" >
         </activity>
         <activity
@@ -165,12 +165,20 @@
             android:label="@string/title_activity_test_intent" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.activity.TestIntentShowActivity"
+            android:name=".activity.TestIntentShowActivity"
             android:label="@string/title_activity_test_intent_show" >
         </activity>
         <activity
-            android:name="com.zcwfeng.sourcestudy.media.VideoSurfaceDemo"
+            android:name=".media.VideoSurfaceDemo"
             android:label="Surface Viedeo" >
+        </activity>
+        <activity
+            android:name=".activity.GridViewHscroll"
+            android:label="@string/title_activity_grid_view_hscroll" >
+        </activity>
+        <activity
+            android:name="com.zcwfeng.sourcestudy.activity.TestSpinner"
+            android:label="@string/title_activity_test_spinner" >
         </activity>
     </application>
 

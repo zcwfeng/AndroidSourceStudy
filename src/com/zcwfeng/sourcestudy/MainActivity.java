@@ -275,6 +275,20 @@ public class MainActivity extends ListActivity {
 
 			startActivity(intent);
 			break;
+		case 25:
+			intent = new Intent();
+			intent.setClass(MainActivity.this,
+					com.zcwfeng.sourcestudy.activity.GridViewHscroll.class);
+
+			startActivity(intent);
+			break;
+		case 26:
+			intent = new Intent();
+			intent.setClass(MainActivity.this,
+					com.zcwfeng.sourcestudy.activity.TestSpinner.class);
+
+			startActivity(intent);
+			break;
 		default:
 			break;
 		}
@@ -307,6 +321,8 @@ public class MainActivity extends ListActivity {
 		list.add("multithead download 2");
 		list.add("intent 细节");
 		list.add("SurfaceView Media播放");
+		list.add("GridView横向滑动");
+		list.add("Spinner的使用");
 
 		return list;
 	}

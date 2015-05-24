@@ -39,5 +39,14 @@
     <string name="title_activity_parcel_test">ParcelTest</string>
     <string name="title_activity_test_intent">TestIntentActivity</string>
     <string name="title_activity_test_intent_show">TestIntentShowActivity</string>
+    <string name="title_activity_grid_view_hscroll">GridViewHscroll</string>
+    <string name="title_activity_test_spinner">TestSpinner</string>
+
+    <string-array name="spinnernames">
+        <item>北京</item>
+        <item>上海 </item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
 
 </resources>
